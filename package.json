@@ -1,0 +1,29 @@
+{
+  "name": "saomda-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --watch 'src/' -e ts --exec dev",
+    "dev": "tsc && node ./dist/main.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "log4js": "^6.3.0",
+    "puppeteer": "^5.2.1",
+    "moment": "^2.27.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/puppeteer": "^3.0.1",
+    "@types/request": "^2.48.5",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "author": "tsukirei",
+  "license": "AGPL-3.0-or-later"
+}
